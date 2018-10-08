@@ -14,7 +14,7 @@ public class EchoServer {
         try (
             ServerSocket serverSocket =
                 new ServerSocket(3000);//port 3000
-            Socket clientSocket = serverSocket.accept(); //accept method connects client to server     
+            Socket clientSocket = serverSocket.accept(); //server will wait for client connection with accept method    
             PrintWriter out =
                 new PrintWriter(clientSocket.getOutputStream(), true);                   
             BufferedReader in = new BufferedReader(
