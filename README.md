@@ -4,3 +4,4 @@ Operating System-Assignment 2
 Student 1: Heyzzen Flores
 Student 2: Nathan Philip
 Course: SYST44288
+https://github.com/EthoKurza/OSA2
